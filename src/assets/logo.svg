@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="18" fill="#ff6b6b"/>
+  <path d="M36 48c0-6.627 5.373-12 12-12h24c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H48c-6.627 0-12-5.373-12-12V48z" fill="#fff" opacity="0.08"/>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#fff" font-weight="700">CR</text>
+</svg>
