@@ -1,4 +1,9 @@
 import { useState } from 'react'
+import CRLogo from './assets/img/CRLogo.png'
+import WhatsAppImg from './assets/img/WhatsApp.png'
+import AjayDevgnImg from './assets/img/Actors/AjayDevgn.png'
+import BobbyDeolImg from './assets/img/Actors/BobbyDeol.png'
+import ShilpaShettyImg from './assets/img/Actors/ShilpaShetty.png'
 
 const celebrities = [
   {
@@ -6,21 +11,21 @@ const celebrities = [
     role: 'Actor, Producer & Brand Ambassador',
     description: 'Award-winning Bollywood superstar known for his strong screen presence and credibility, making him a powerful choice for brand endorsements, corporate campaigns, and product promotions.',
     badge: 'Brand Endorsements',
-    image: '/src/assets/img/Actors/AjayDevgn.png',
+    image: AjayDevgnImg,
   },
   {
     name: 'Bobby Deol',
     role: 'Actor & Celebrity Influencer',
     description: 'Popular actor with broad audience appeal, ideal for brand collaborations, event appearances, product launches, and digital marketing campaigns.',
     badge: 'Celebrity Campaigns',
-   image: '/src/assets/img/Actors/BobbyDeol.png',
+    image: BobbyDeolImg,
   },
   {
     name: 'Shilpa Shetty',
     role: 'Actor, Entrepreneur & Celebrity Host',
     description: 'Renowned Bollywood actor, television personality, entrepreneur, and event host known for engaging audiences and elevating brand campaigns.',
     badge: 'Brand Endorsements',
-    image: '/src/assets/img/Actors/ShilpaShetty.png',
+    image: ShilpaShettyImg,
   },
 ]
 
@@ -33,7 +38,7 @@ function App() {
         <div className="container d-flex justify-content-center align-items-center gap-2">
           <div className="topbar-text text-white small">Connect Your Business with Top Celebrities & Influencers - </div>
           <div>
-            <a className="btn btn-sm btn-light rounded-pill" href="#begin"><img src="/src/assets/img/WhatsApp.png" alt="CelebRate" className="WhatsApp-img" /></a>
+              <a className="btn btn-sm btn-light rounded-pill" href="#begin"><img src={WhatsAppImg} alt="CelebRate" className="WhatsApp-img" /></a>
           </div>
         </div>
       </div>
@@ -41,7 +46,7 @@ function App() {
       <header className="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-2">
         <div className="container">
           <a className="navbar-brand d-flex flex-column align-items-center gap-1" href="#home">
-            <img src="/src/assets/img/CRLogo.png" alt="CelebRate" className="logo-img" />
+              <img src={CRLogo} alt="CelebRate" className="logo-img" />
             <span className="fw-bold text-dark">CelebRate<span style={{ color: "red" }}> - Karlo</span> </span>
           </a>
 
